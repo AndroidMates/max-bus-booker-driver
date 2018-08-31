@@ -1,38 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="200dp"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/nav_header_bg"
+    android:maxHeight="@dimen/header_max_height"
+    android:onClick="viewProfile"
+    tools:context=".ui.HomeActivity"
     android:orientation="vertical"
-    android:background="@drawable/nav_header_bg">
+    android:padding="@dimen/padding_large">
 
-    <ImageView
-        android:id="@+id/nav_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:scaleType="centerCrop"
+    <io.travelaid.widget.CircularImageView
+        android:id="@+id/header_avatar"
+        android:layout_marginTop="@dimen/padding_large"
+        android:layout_width="@dimen/avatar_bounds"
+        android:layout_height="@dimen/avatar_bounds"
+        android:layout_marginStart="@dimen/padding_normal"
         android:src="@drawable/avatar_placeholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <io.travelaid.widget.BaselineGridTextView
+        android:id="@+id/header_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"/>
+        android:layout_marginStart="@dimen/padding_normal"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="1"
+        tools:text="@string/dummy_username"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:fontFamily="@font/lato_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header_avatar"/>
 
-    <TextView
-        android:layout_width="match_parent"
+    <io.travelaid.widget.BaselineGridTextView
+        android:id="@+id/header_email"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/username"
-        android:gravity="center_horizontal"
-        android:padding="5dp"
-        android:fontFamily="@font/lato_bold"
-        android:textColor="@color/white_greyish"
-        android:textSize="18sp"/>
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="end"
+        android:layout_marginStart="@dimen/padding_normal"
+        android:gravity="start"
+        android:maxLines="1"
+        tools:text="@string/dummy_email"
+        android:textColor="@color/colorWhite"
+        app:fontFamily="@font/lato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header_username" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/dummy_email"
-        android:gravity="center_horizontal"
-        android:padding="5dp"
-        android:fontFamily="@font/lato_bold"
-        android:textColor="@color/white_greyish"
-        android:textSize="16sp"/>
-
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -3,7 +3,7 @@
     <!--Default app colors-->
     <color name="colorPrimary">#009688</color>
     <color name="colorPrimaryDark">#008478</color>
-    <color name="colorAccent">@color/colorPrimary</color>
+    <color name="colorAccent">@color/colorSecondary</color>
     <color name="colorSecondary">#19262d</color>
     <color name="colorWhite">@android:color/white</color>
 
@@ -61,4 +61,5 @@
     <!-- text (most text uses material theme colours) -->
     <color name="hint_disabled_dark">#43000000</color> <!-- 26% black -->
     <color name="text_on_accent">#8f000000</color>
+
 </resources>
