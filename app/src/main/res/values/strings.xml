@@ -1,0 +1,123 @@
+<resources>
+
+    <string name="app_name">MaxGold Bus Booker</string>
+    <string name="application_name">MaxGold Bus Booker</string>
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="app_slogan">…traveling just got easier</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="skip">skip</string>
+
+    <!--Team-->
+    <string name="watermark">Created by <b>AndroidMates Inc</b> © 2018</string>
+
+    <!-- Navigation Drawer Item strings -->
+    <string name="profile">Profile</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="reservations">Reservations</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="upcoming_trip">Upcoming Trips</string>
+    <string name="made_trip">Made Trips</string>
+    <string name="current_trip">Current Trip</string>
+    <string name="available_seats">Available Seats</string>
+    <string name="logout">Logout</string>
+    <string name="string_username">Username</string>
+    <string name="string_email">Email address</string>
+    <string name="dummy_email">username@gmail.com</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <!-- menu passenger -->
+    <string name="about_us">About Us</string>
+    <string name="settings">Settings</string>
+    <string name="bus_name">Bus Name</string>
+
+
+    <!-- Driver side strings-->
+    <string name="add_bus_details">Add Bus Details</string>
+    <string name="bus_type">Bus Type</string>
+    <string name="bus_number">Bus Number</string>
+    <string name="number_seat">No. of Seats</string>
+    <string name="capacity">Capacity</string>
+    <string name="departure_time">Departure Time</string>
+
+    <!--Text for alertDialog -->
+    <string name="welcome_msg_title">Welcome, username</string>
+    <string name="welcome_msg_body">
+        MaxGold Bus Booker has a
+        lot to make you feel at home.
+        You can update your
+        profile, make reservations
+        and check for upcoming trips
+        by check the drawer on the left
+        side of the screen.
+        Viola! enjoy travelling comfortably
+        with this application.
+    </string>
+
+    <!-- About us text -->
+    <string name="about_us_text">
+        Max Travel aid is a mobile application
+        developed by AndroidMates Inc. to help
+        travelers to easily make reservations
+        for trips and make payments easily in
+        the comfort of their homes.
+        This application is developed for
+        all users and deemed it fit for its
+        purpose. Any suggestions or issues
+        regarding the application can be
+        sent using the suggestion link.
+        Feel free to contact us on
+        +233245134112 / +233554022344
+        / +233209135078 or send us a mail :
+        amates495@gmail.com
+    </string>
+
+    <!--ViewPager-->
+    <string name="title1">Plan your trip</string>
+    <string name="desc1">Enter your pick and enjoy your ride!</string>
+    <string name="title2">Reserve your seat</string>
+    <string name="desc2">Reserve comfortable seats in an AC Luxurious bus with just a tap</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="search">Search</string>
+    <string name="dummy_username">Fred Adu-Twum</string>
+    <string name="enter_input_here">Enter input here</string>
+    <string name="options">Options</string>
+
+    <!--text for search activity-->
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="origin">Origin</string>
+    <string name="destination">Destination</string>
+    <string name="text_book">Book A Bus Now!</string>
+    <string name="text_search">Search</string>
+    <string name="search_here">SEARCH HERE</string>
+    <string name="text_date_picker">...Date Picker goes here</string>
+    <string name="date_dialog_header">Select day of your trip</string>
+
+    <!--view pager strings -->
+    <string name="slide_description">Slider Description</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_update_prompt">Please update your profile</string>
+
+    <string name="text_about_us">ABOUT US</string>
+
+    <!--Developers' Information-->
+    <string name="quabynah_profile_url"><![CDATA[https://firebasestorage.googleapis.com/v0/b/creators-of-awesome-apps.appspot.com/o/FB_IMG_1530988416409%5B1%5D.jpg?alt=media&token=572aec4f-7e6f-437d-b6fa-5909daf5f241]]></string>
+    <string name="developer_quabynah">Dennis K. Bilson (Quabynah)</string>
+    <string name="desc_quabynah">[Twitter](http://twitter.com/dennis_bilson) | [GitHub](http://github.com/Quabynah+Codelabs)</string>
+
+    <string name="ali_profile_url">@null</string>
+    <string name="developer_ali">Ali Sampson (iCODE)</string>
+    <string name="desc_ali">[Twitter](http://twitter.com/icode) | [GitHub](http://github.com/ALI-SAMPSON)</string>
+
+    <string name="fred_profile_url">@null</string>
+    <string name="developer_fred">@string/dummy_username</string>
+    <string name="desc_fred">[Twitter](http://twitter.com/fred_adu_twum) | [GitHub](http://github.com/adu)</string>
+    <string name="todo">TODO</string>
+</resources>

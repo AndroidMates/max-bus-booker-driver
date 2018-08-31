@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "899114323858",
+    "firebase_url": "https://max-travel-aid-driver.firebaseio.com",
+    "project_id": "max-travel-aid-driver",
+    "storage_bucket": "max-travel-aid-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899114323858:android:7e2859a9c78dc400",
+        "android_client_info": {
+          "package_name": "io.maxbusbooker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899114323858-1g8hidlfsmpt08v4vtbe500gp4us23lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.maxbusbooker",
+            "certificate_hash": "cb8c0af6f657780058faa47307fa5bf4e11d4fcd"
+          }
+        },
+        {
+          "client_id": "899114323858-e4heofd4ui6kuip4og8sfqcnpa2c34jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC4OVC2e4Q7gwiH5h92kDG6_Mft5AQr8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899114323858-e4heofd4ui6kuip4og8sfqcnpa2c34jn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

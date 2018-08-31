@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/nav_header_bg">
+
+    <ImageView
+        android:id="@+id/nav_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avatar_placeholder"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:fontFamily="@font/lato_bold"
+        android:textColor="@color/white_greyish"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy_email"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:fontFamily="@font/lato_bold"
+        android:textColor="@color/white_greyish"
+        android:textSize="16sp"/>
+
+</LinearLayout>

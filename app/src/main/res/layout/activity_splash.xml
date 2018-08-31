@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.SplashActivity">
+
+    <io.maxbusbooker.widget.BaselineGridTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/padding_normal"
+        android:text="@string/application_name"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        app:fontFamily="@font/lato_bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:alpha="0.25"
+        android:src="@drawable/my_bus" />
+
+    <!--todo: Update the text given below: Please add a better name for our group @iCODE-->
+    <io.maxbusbooker.widget.BaselineGridTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:padding="@dimen/padding_normal"
+        android:text="@string/watermark"
+        android:textColor="@color/light_text_color"
+        android:textSize="14sp"
+        app:fontFamily="@font/lato" />
+
+</FrameLayout>
