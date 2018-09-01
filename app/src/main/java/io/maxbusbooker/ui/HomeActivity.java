@@ -107,6 +107,7 @@ public class HomeActivity extends BaseActivity implements NavigationView.OnNavig
                 new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker timePicker, int hourOfDay, int minute) {
+                        //sets the current hour and minutes to the textView
                         _setTime.setText(hourOfDay + ":" + minute);
                     }
                 },mHour,mMinute,true);
@@ -246,4 +247,11 @@ public class HomeActivity extends BaseActivity implements NavigationView.OnNavig
         super.onDestroy();
     }
 
+    public void login(View view) {
+
+    }
+
+    public void register(View view) {
+
+    }
 }

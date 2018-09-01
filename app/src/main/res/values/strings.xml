@@ -45,6 +45,7 @@
     <string name="departure_time">Departure Time</string>
 
     <!--Text for alertDialog -->
+    <string name="text_search_bus">Search for Available Buses</string>
     <string name="welcome_msg_title">Welcome, username</string>
     <string name="welcome_msg_body">
         MaxGold Bus Booker has a

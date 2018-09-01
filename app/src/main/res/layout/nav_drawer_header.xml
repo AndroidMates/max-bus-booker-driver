@@ -12,7 +12,7 @@
     android:orientation="vertical"
     android:padding="@dimen/padding_large">
 
-    <io.travelaid.widget.CircularImageView
+    <io.maxbusbooker.widget.CircularImageView
         android:id="@+id/header_avatar"
         android:layout_marginTop="@dimen/padding_large"
         android:layout_width="@dimen/avatar_bounds"
@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <io.travelaid.widget.BaselineGridTextView
+    <io.maxbusbooker.widget.BaselineGridTextView
         android:id="@+id/header_username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/header_avatar"/>
 
-    <io.travelaid.widget.BaselineGridTextView
+    <io.maxbusbooker.widget.BaselineGridTextView
         android:id="@+id/header_email"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
