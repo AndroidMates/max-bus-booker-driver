@@ -35,6 +35,18 @@
     <string name="settings">Settings</string>
     <string name="bus_name">Bus Name</string>
 
+    <!--Error Text -->
+    <string name="error_empty_email">Email field cannot be left empty</string>
+    <string name="error_empty_password">Password field cannot be left empty</string>
+    <string name="email_invalid">Enter a valid email address</string>
+    <string name="email_registered">Enter your registered email id</string>
+    <string name="error_password_length">Password length cannot be less than 6</string>
+    <string name="error_empty_phone">Phone Number field cannot be left empty</string>
+    <string name="phone_invalid">Enter a valid phone number</string>
+    <string name="sign_up_successful">Sign Up Successful</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="error_empty_field">Field cannot left empty</string>
+    <string name="error_empty_username">Username is a required field</string>
 
     <!-- Driver side strings-->
     <string name="add_bus_details">Add Bus Details</string>
@@ -57,6 +69,15 @@
         side of the screen.
         Viola! enjoy travelling comfortably
         with this application.
+    </string>
+    <string name="text_sign_up_and_verification_sent">
+        Sign Up Successful!. A verification link has been
+        sent to your mail, please visit your inbox to verify
+        your email address
+    </string>
+    <string name="text_email_not_verified">
+        Email address is not verified,
+        please verify your email from your inbox
     </string>
 
     <!-- About us text -->

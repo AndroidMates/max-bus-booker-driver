@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@id/logo" />
 
     <android.support.design.widget.TextInputLayout
-        android:id="@+id/username_container"
+        android:id="@+id/email_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="36sp"
@@ -57,7 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logo">
         <android.support.design.widget.TextInputEditText
-            android:id="@+id/username"
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_person_black_24dp"
@@ -79,7 +79,7 @@
         android:layout_marginEnd="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/username_container"
+        app:layout_constraintTop_toBottomOf="@id/email_container"
         app:passwordToggleEnabled="true"
         app:passwordToggleTint="@color/colorAccent">
         <android.support.design.widget.TextInputEditText
@@ -107,6 +107,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/password_container" />
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_type"/>
+
     <LinearLayout
         android:id="@+id/button_container"
         android:layout_width="match_parent"
@@ -125,7 +135,7 @@
             android:onClick="login"
             android:padding="12dp"
             android:text="@string/login"
-            android:textColor="@color/pure_white" />
+            android:textColor="@color/pure_white"/>
 
         <Button
             android:layout_width="0dp"

@@ -7,6 +7,8 @@
     <color name="colorSecondary">#19262d</color>
     <color name="colorWhite">@android:color/white</color>
 
+    <color name="colorDarK">#3C3C3C</color>
+
     <color name="colorBlue">#3F51B5</color>
     <color name="colorBlueDark">#303F9F</color>
     <color name="colorLightBlue">#FF0386DB</color>
