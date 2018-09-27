@@ -6,6 +6,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorWhite"
     android:focusableInTouchMode="true"
     tools:context=".ui.LoginActivity">
 
@@ -64,7 +65,7 @@
             android:drawablePadding="@dimen/padding_normal"
             android:fontFamily="@font/lato"
             android:hint="@string/email"
-            android:inputType="text"
+            android:inputType="textEmailAddress|textAutoComplete|textAutoCorrect"
             android:textSize="16sp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 

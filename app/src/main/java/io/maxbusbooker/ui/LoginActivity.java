@@ -104,7 +104,7 @@ public class LoginActivity extends AppCompatActivity {
                             sendVerificationEmail();
 
                             // display a success message
-                            Snackbar.make(container,getString(R.string.text_sign_up_and_verification_sent), Toast.LENGTH_LONG);
+                            Snackbar.make(container,getString(R.string.text_sign_up_and_verification_sent), Snackbar.LENGTH_LONG).show();
 
                             // clears fields after a successful sign up
                             clearFields();
