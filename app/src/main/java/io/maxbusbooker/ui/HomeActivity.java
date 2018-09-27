@@ -243,7 +243,7 @@ public class HomeActivity extends BaseActivity implements NavigationView.OnNavig
 
     @Override
     protected void onDestroy() {
-        prefs.removeUserLoginListener(this);
+        //prefs.removeUserLoginListener(this);
         super.onDestroy();
     }
 

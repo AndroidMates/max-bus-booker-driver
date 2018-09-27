@@ -239,7 +239,7 @@ public class LoginActivity extends AppCompatActivity {
         else{
 
             // display error message and restarts the activity
-            Snackbar.make(container,getString(R.string.text_email_not_verified),Toast.LENGTH_LONG).show();
+            Toast.makeText(LoginActivity.this,getString(R.string.text_email_not_verified),Toast.LENGTH_LONG).show();
 
             // restarts the activity
             startActivity(new Intent(LoginActivity.this,LoginActivity.class));
