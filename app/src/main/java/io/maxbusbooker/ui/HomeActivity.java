@@ -21,6 +21,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
@@ -58,7 +59,7 @@ public class HomeActivity extends BaseActivity implements NavigationView.OnNavig
 
     private BaselineGridTextView _setTime;
     private ImageButton _imageButton;
-    private ConstraintLayout mLayout;
+    private RelativeLayout mLayout;
     private GlobalUser globalUser;
 
     private static final int REQUEST_CODE = 1;

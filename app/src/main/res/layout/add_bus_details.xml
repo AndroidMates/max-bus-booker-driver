@@ -8,19 +8,6 @@
     android:layout_height="match_parent"
     android:focusableInTouchMode="true">
 
-    <!--<io.maxbusbooker.widget.BaselineGridTextView
-        android:id="@+id/logo_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32sp"
-        android:padding="12dp"
-        android:text="@string/add_bus_details"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        app:fontFamily="@font/lato_bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />-->
 
     <ImageView
         android:id="@+id/image"
@@ -47,18 +34,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image"/>
-
-    <!--<io.maxbusbooker.widget.BaselineGridTextView
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:text="@string/app_slogan"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textStyle="italic"
-        app:fontFamily="@font/lato"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logo" />-->
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/bus_type_container"
@@ -186,18 +161,6 @@
             android:textSize="16sp"
             android:textColor="@color/colorSecondary"/>
     </android.support.v7.widget.CardView>
-
-    <!--<CheckBox
-        android:id="@+id/user_type"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36sp"
-        android:layout_marginTop="@dimen/padding_normal"
-        android:text="Login as a Bus Driver"
-        android:fontFamily="@font/lato_bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password_container" />
-        -->
 
     <LinearLayout
         android:id="@+id/button_container"

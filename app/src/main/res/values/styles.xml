@@ -13,6 +13,18 @@
         <item name="android:windowBackground">@color/pure_white</item>
     </style>
 
+    <style name="Mobile.Theme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <!--<item name="colorSecondary">@color/colorSecondary</item>-->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:colorBackground">@color/pure_white</item>
+        <item name="android:windowBackground">@color/pure_white</item>
+    </style>
+
     <style name="Mobile.Theme.FullScreen">
         <item name="android:windowFullscreen">true</item>
     </style>
